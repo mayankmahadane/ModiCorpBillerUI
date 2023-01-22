@@ -50,4 +50,9 @@ public class PayBillerSteps {
     public void verifyPaidBillNotShownAsUnpaid(){
 
     }
+
+    @And("Verify that system shows error message for insufficient fund")
+    public void verifyInsufficientFundErrorMessage(){
+
+    }
 }
