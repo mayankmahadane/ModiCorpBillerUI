@@ -4,8 +4,16 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.PayBillPage;
+import utils.BaseClass;
 
 public class PayBillerSteps {
+    PayBillPage payBillPage;
+
+    public PayBillerSteps(){
+        payBillPage = new PayBillPage();
+    }
+
     @Given("Verify that User is a registered User")
     public void verifyUserIsRegistered(){
 

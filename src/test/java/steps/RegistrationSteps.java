@@ -4,8 +4,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
+import pages.RegistrationPage;
+import utils.BaseClass;
 
 public class RegistrationSteps {
+        RegistrationPage registrationPage;
+
+        public RegistrationSteps(){
+            registrationPage = new RegistrationPage();
+        }
 
     @Given("User should be on Modi Corp Register User page")
     public void navigateToRegistrationPage(){
