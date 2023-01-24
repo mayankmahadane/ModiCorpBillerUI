@@ -1,0 +1,5 @@
+1) Assuming that Login functionality is provided for customer to come again and make payment by logging in
+2) Assuming that Password is required while registration along with Email ID as primary data required
+3) Assuming that wallet is created with zero balance as soon as registration is successful and user can recharge wallet later also.
+4) Assuming that user will be shown with Logged in username on top of screen after registration/login
+5) Assuming that wallet balance will be shown on screen at some place near logged in username, after successful registration/login.
